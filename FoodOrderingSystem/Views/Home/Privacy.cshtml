@@ -1,0 +1,161 @@
+﻿@{
+    ViewData["Title"] = "Settings";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VNUIS - FOOD APP</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FoodOrderingSystem.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        /* Style for the Settings page */
+        .setting-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+            .setting-item:last-child {
+                border-bottom: none;
+            }
+
+            .setting-item i {
+                font-size: 24px;
+            }
+
+            .setting-item .toggle-switch {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+        .toggle-switch input[type="checkbox"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 50px;
+            height: 30px;
+            border-radius: 30px;
+            background: #ccc;
+            position: relative;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+            .toggle-switch input[type="checkbox"]:checked {
+                background: #4CAF50;
+            }
+
+                .toggle-switch input[type="checkbox"]:checked:before {
+                    left: 26px;
+                }
+
+            .toggle-switch input[type="checkbox"]:before {
+                content: '';
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                width: 24px;
+                height: 24px;
+                background: white;
+                border-radius: 50%;
+                transition: left 0.3s ease;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-bell"></i> Push Notifications</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="pushNotifications">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-user-circle"></i> Profile Visibility</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="profileVisibility">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-microphone"></i> Voice Commands</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="voiceCommands">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-location-arrow"></i> Location Services</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="locationServices">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-lock"></i> Privacy Mode</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="privacyMode">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-camera"></i> Camera Access</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="cameraAccess">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-volume-up"></i> Sound Notifications</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="soundNotifications">
+                </div>
+            </div>
+        </div>
+
+        <div class="setting-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-cloud-upload-alt"></i> Cloud Sync</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="cloudSync">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            VNU-IS FoodOrderingApp 2024
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
+

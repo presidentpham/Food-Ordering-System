@@ -1,0 +1,13 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1>Error Page</h1>
+
+<div>
+    <p>Error Code: @ViewBag.ErrorCode ?? "No error code provided"</p>
+    <p>Error Description: @ViewBag.ErrorDesc ?? "No description provided"</p>
+</div>
+

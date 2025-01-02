@@ -1,0 +1,71 @@
+﻿@model FoodOrderingSystem.ViewModels.ShoppingCartViewModel
+
+@{
+    ViewData["Title"] = "My Shopping Cart";
+    
+}
+
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">My Shopping Cart</h1>
+    </div>
+</section>
+
+@if (Model.Items != null && Model.Items.Any())
+{
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitPrice.ToString("C")</td>
+                        <td>@item.TotalPrice.ToString("C")</td>
+                        <td>
+                            <!-- Form to remove item from cart -->
+                            <form asp-action="RemoveFromCart" method="post" style="display:inline;">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger">Remove</button>
+                            </form>
+
+                            <!-- Form to update item quantity -->
+                            <form asp-action="UpdateItemQuantity" method="post" style="display:inline;">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <input type="number" name="quantity" value="@item.Quantity" min="1" />
+                                <button type="submit" class="btn btn-primary">Update Quantity</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h3>Total Price: @ViewBag.TotalPrice.ToString("C")</h3>
+
+        <!-- Redirect to Login if not authenticated -->
+        <form asp-action="ProceedToCheckout" method="post">
+            <button type="submit" class="btn btn-success">Proceed to Checkout</button>
+        </form>
+    </div>
+}
+else
+{
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h2 class="jumbotron-heading">Your Shopping Cart is Empty</h2>
+            <p>It looks like you have no items in your shopping cart. You can browse our products and add items to your cart to get started.</p>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Continue Shopping</a>
+        </div>
+    </section>
+}

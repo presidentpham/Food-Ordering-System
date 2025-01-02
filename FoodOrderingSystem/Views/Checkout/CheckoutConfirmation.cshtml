@@ -1,0 +1,29 @@
+﻿@{
+    var paymentOption = ViewBag.PaymentOption;
+    var totalPrice = ViewBag.TotalPrice;
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary">Checkout Confirmation</h2>
+
+    <!-- Payment Information Section -->
+    <div class="card shadow-lg mb-4">
+        <div class="card-body">
+            <h4 class="card-title text-success">Payment Method Selected</h4>
+            <p class="card-text lead">You have selected: <strong>@paymentOption</strong></p>
+
+            <div class="mt-3">
+                <h5>Total Price</h5>
+                <p class="h4 text-danger">@totalPrice.ToString("C")</p>
+            </div>
+            <p class="mt-3">Thank you for your order! Please proceed to complete your payment.</p>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg mr-3">Return to Home</a>
+        </div>
+    </div>
+</div>

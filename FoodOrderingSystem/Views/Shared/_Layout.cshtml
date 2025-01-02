@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VNUIS - FOOD APP</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FoodOrderingSystem.styles.css" asp-append-version="true" />
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        /* Gradient button styles */
+        .btn-logout {
+            background: linear-gradient(45deg, #ff4b5c, #ff6a6a); /* Đỏ gradient */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+            /* Hover effect */
+            .btn-logout:hover {
+                background: linear-gradient(45deg, #ff6a6a, #ff4b5c);
+                cursor: pointer;
+            }
+
+        /* Make sure the footer is always at the bottom */
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container-fluid">
+                <img src="https://itrithuc.vn/vn-uploads/organization/2020_09/qhqghn.png" style="width: 60px; height: 60px;"/>
+                <!-- Logo or Brand Name -->
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")" style="margin: 10px; font-weight: bold;">VNUIS-FOOD</a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Logo_VNU.png" style="height: 60px;" />
+
+                <!-- Toggle button for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Home link with icon -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="@Url.Action("Index", "Home")">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+
+                        <!-- Settings link with icon -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="@Url.Action("Privacy", "Home")">
+                                <i class="fas fa-cogs"></i> Settings
+                            </a>
+                        </li>
+
+                        <!-- Admin icon (always visible) -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="@Url.Action("AdminLogin", "Admin")">
+                                <i class="fas fa-user-shield"></i> Admin
+                            </a>
+                        </li>
+
+                        <!-- Logout Button with icon and gradient -->
+                        <li class="nav-item">
+                            <form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-logout nav-link text-dark">
+                                    <i class="fas fa-sign-out-alt"></i> Logout
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="text-muted">&copy; VNUIS FoodOrderingApp 2024 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        function logout() {
+            fetch('@Url.Action("Logout", "Account")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                credentials: 'same-origin'
+            })
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = '@Url.Action("Index", "Home")';
+                    } else {
+                        alert('Logout failed. Please try again.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Logout failed. Please try again.');
+                });
+        }
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

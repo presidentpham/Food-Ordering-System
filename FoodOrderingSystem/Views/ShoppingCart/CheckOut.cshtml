@@ -1,0 +1,43 @@
+﻿@model CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <form asp-action="Checkout" method="post">
+        <div class="form-group">
+            <label asp-for="CardholderName"></label>
+            <input asp-for="CardholderName" class="form-control" />
+            <span asp-validation-for="CardholderName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CreditCardNumber"></label>
+            <input asp-for="CreditCardNumber" class="form-control" type="text" />
+            <span asp-validation-for="CreditCardNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ExpirationDate"></label>
+            <input asp-for="ExpirationDate" class="form-control" type="text" />
+            <span asp-validation-for="ExpirationDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SecurityCode"></label>
+            <input asp-for="SecurityCode" class="form-control" type="text" />
+            <span asp-validation-for="SecurityCode" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Payment</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

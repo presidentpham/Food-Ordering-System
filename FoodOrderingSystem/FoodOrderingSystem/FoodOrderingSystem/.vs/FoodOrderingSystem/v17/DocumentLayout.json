@@ -1,0 +1,975 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\admin\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\admin\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\admin\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\admin\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\syncidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\syncidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\shoppingcart\\emptycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\shoppingcart\\emptycart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\payment\\widget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\payment\\widget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\payment\\whitelabel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\payment\\whitelabel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\payment\\paymentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\payment\\paymentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\payment\\notifypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\payment\\notifypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\payment\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\payment\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\checkout\\checkoutconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\checkout\\checkoutconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\services\\syncidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:services\\syncidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:services\\shoppingcartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\widgetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\widgetviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\whitelabelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\whitelabelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\shoppingcartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\shoppingcartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\paymentoptionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\paymentoptionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\syncids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\syncids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\paymentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\paymentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\paymentrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\paymentrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\paymentoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\paymentoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|c:\\users\\presi\\source\\repos\\foodorderingsystem\\foodorderingsystem\\models\\admins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84DE623-1063-4D9D-B672-44EAFD6642A6}|FoodOrderingSystem.csproj|solutionrelative:models\\admins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:37.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Admin\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Admin\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:40:56.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:11.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T16:43:04.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:43:06.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD0AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:16.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Admin\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Admin\\AdminLogin.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AdminLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:02.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:39:34.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SyncIdController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\SyncIdController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SyncIdController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\SyncIdController.cs",
+              "RelativeToolTip": "Controllers\\SyncIdController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:39:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "Models\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\ShoppingCartItem.cs",
+              "RelativeToolTip": "Models\\ShoppingCartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:54.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:48.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmptyCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\ShoppingCart\\EmptyCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\EmptyCart.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\ShoppingCart\\EmptyCart.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\EmptyCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:38.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:43.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:51.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:43:02.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:28.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:23.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Widget.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\Widget.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\Widget.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\Widget.cshtml",
+              "RelativeToolTip": "Views\\Payment\\Widget.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:07.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WhiteLabel.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\WhiteLabel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\WhiteLabel.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\WhiteLabel.cshtml",
+              "RelativeToolTip": "Views\\Payment\\WhiteLabel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:42:01.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\PaymentPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\PaymentPage.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\PaymentPage.cshtml",
+              "RelativeToolTip": "Views\\Payment\\PaymentPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:57.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotifyPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\NotifyPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\NotifyPage.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\NotifyPage.cshtml",
+              "RelativeToolTip": "Views\\Payment\\NotifyPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:55.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\ErrorPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\ErrorPage.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Payment\\ErrorPage.cshtml",
+              "RelativeToolTip": "Views\\Payment\\ErrorPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:52.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:44.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:27.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CheckoutConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Checkout\\CheckoutConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\CheckoutConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Checkout\\CheckoutConfirmation.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\CheckoutConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:41:22.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:40:48.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:40:41.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:40:23.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:39:19.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:38:54.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:38:31.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:38:09.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:37:54.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Data\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\UserRoles.cs",
+              "RelativeToolTip": "Data\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:37:26.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:37:21.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:37:09.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:36:49.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:32:49.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SyncIdService.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\SyncIdService.cs",
+              "RelativeDocumentMoniker": "Services\\SyncIdService.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\SyncIdService.cs",
+              "RelativeToolTip": "Services\\SyncIdService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:36:31.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ShoppingCartService.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\ShoppingCartService.cs",
+              "RelativeDocumentMoniker": "Services\\ShoppingCartService.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\ShoppingCartService.cs",
+              "RelativeToolTip": "Services\\ShoppingCartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:36:15.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:36:02.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:35:48.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:35:35.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "WidgetViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\WidgetViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\WidgetViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\WidgetViewModel.cs",
+              "RelativeToolTip": "ViewModels\\WidgetViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:35:14.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WhiteLabelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\WhiteLabelViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\WhiteLabelViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\WhiteLabelViewModel.cs",
+              "RelativeToolTip": "ViewModels\\WhiteLabelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:35:09.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ShoppingCartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ShoppingCartViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ShoppingCartViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ShoppingCartViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ShoppingCartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:35:00.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ShoppingCartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ShoppingCartItemViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ShoppingCartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ShoppingCartItemViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ShoppingCartItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:53.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:47.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:38.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PaymentOptionsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\PaymentOptionsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PaymentOptionsViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\PaymentOptionsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PaymentOptionsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:28.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:23.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:17.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CheckOutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CheckOutViewModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CheckOutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:12.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SyncIds.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\SyncIds.cs",
+              "RelativeDocumentMoniker": "Models\\SyncIds.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\SyncIds.cs",
+              "RelativeToolTip": "Models\\SyncIds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:34:03.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:41.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PaymentSettings.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\PaymentSettings.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentSettings.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\PaymentSettings.cs",
+              "RelativeToolTip": "Models\\PaymentSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:35.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PaymentRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\PaymentRequestModel.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentRequestModel.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\PaymentRequestModel.cs",
+              "RelativeToolTip": "Models\\PaymentRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:25.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PaymentOptions.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\PaymentOptions.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentOptions.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\PaymentOptions.cs",
+              "RelativeToolTip": "Models\\PaymentOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:19.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Admins.cs",
+              "DocumentMoniker": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Admins.cs",
+              "RelativeDocumentMoniker": "Models\\Admins.cs",
+              "ToolTip": "C:\\Users\\presi\\source\\repos\\FoodOrderingSystem\\FoodOrderingSystem\\Models\\Admins.cs",
+              "RelativeToolTip": "Models\\Admins.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:33:13.736Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

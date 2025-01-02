@@ -1,0 +1,57 @@
+﻿@model FoodOrderingSystem.ViewModels.WidgetViewModel
+
+@{
+    ViewData["Title"] = "Widget Payment";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Widget Payment</h1>
+
+        <form asp-action="ProcessWidgetPayment" method="post">
+            <div class="form-group">
+                <label asp-for="CardholderName" class="control-label"></label>
+                <input asp-for="CardholderName" class="form-control" />
+                <span asp-validation-for="CardholderName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CreditCardNumber" class="control-label"></label>
+                <input asp-for="CreditCardNumber" class="form-control" />
+                <span asp-validation-for="CreditCardNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ExpirationDate" class="control-label"></label>
+                <input asp-for="ExpirationDate" class="form-control" />
+                <span asp-validation-for="ExpirationDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SecurityCode" class="control-label"></label>
+                <input asp-for="SecurityCode" class="form-control" />
+                <span asp-validation-for="SecurityCode" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BillingAddress" class="control-label"></label>
+                <input asp-for="BillingAddress" class="form-control" />
+                <span asp-validation-for="BillingAddress" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Payment</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

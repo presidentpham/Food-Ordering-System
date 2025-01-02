@@ -1,0 +1,49 @@
+﻿@model FoodOrderingSystem.ViewModels.PaymentOptionsViewModel
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Checkout</h2>
+
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            @if (Model.TotalPrice != null)
+            {
+                <h3 class="text-success">Total Price: @Model.TotalPrice</h3>
+            }
+            else
+            {
+                <h3 class="text-danger">Total Price: Not available</h3>
+            }
+        </div>
+    </div>
+
+    @if (Model.PaymentOptions != null && Model.PaymentOptions.Any())
+    {
+        <div class="row">
+            @foreach (var option in Model.PaymentOptions)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@option.Name</h5>
+                            <p class="card-text">@option.Description</p>
+
+                            @if (!string.IsNullOrEmpty(option.ImageUrl))
+                            {
+                                <img src="@option.ImageUrl" alt="@option.Name" class="img-fluid rounded" style="max-width: 150px;" />
+                            }
+
+                            <form asp-action="SelectPaymentOption" asp-controller="CheckOut" method="post">
+                                <input type="hidden" name="paymentOption" value="@option.Name" />
+                                <button type="submit" class="btn btn-primary btn-block mt-3">Select</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-center text-muted">No payment options available.</p>
+    }
+</div>

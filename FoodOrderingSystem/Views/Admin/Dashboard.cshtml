@@ -1,0 +1,77 @@
+﻿@model IEnumerable<FoodOrderingSystem.Models.Product>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary">Admin Dashboard</h2>
+    <div class="d-flex justify-content-between align-items-center my-4">
+        <h3 class="text-secondary">Food List</h3>
+        <a href="@Url.Action("AddOrEdit", "Admin")" class="btn btn-success">
+            <i class="fas fa-plus-circle"></i> Add New Food
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (!Model.Any())
+                {
+                    <tr>
+                        <td colspan="6" class="text-center text-muted">No products available.</td>
+                    </tr>
+                }
+                else
+                {
+                    int index = 1;
+                    foreach (var product in Model)
+                    {
+                        <tr>
+                            <th scope="row">@index</th>
+                            <td>@product.Name</td>
+                            <td>@product.Description</td>
+                            <td>@product.Price</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(product.ImageUrl))
+                                {
+                                    <img src="@product.ImageUrl" alt="@product.Name" class="img-thumbnail" style="width: 100px; height: auto;" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No Image</span>
+                                }
+                            </td>
+                            <td>
+                                <a href="@Url.Action("AddOrEdit", "Admin", new { id = product.Id })" class="btn btn-sm btn-warning me-2">
+                                    <i class="fas fa-edit"></i> Edit
+                                </a>
+                                <!-- Form để gửi yêu cầu POST xóa sản phẩm -->
+                                <form asp-action="Delete" asp-controller="Admin" method="post" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                                    <input type="hidden" name="id" value="@product.Id" />
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        <i class="fas fa-trash-alt"></i> Delete
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                        index++;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Optional: FontAwesome and Bootstrap CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
